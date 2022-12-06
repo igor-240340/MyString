@@ -27,6 +27,8 @@ MyString::~MyString() {
 }
 
 MyString& MyString::operator=(MyString&& right) {
+	delete[] data;
+
 	data = right.data;
 	right.data = nullptr;
 

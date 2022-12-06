@@ -71,7 +71,7 @@ void Assignment() {
 
 	cout << "Test 5 | move assignment";
 	MyString s6 = "Hello";
-	MyString s7;
+	MyString s7 = "foo";
 	s7 = s6 + " world!";
 	assert(s7 == "Hello world!");
 	PrintOK();
