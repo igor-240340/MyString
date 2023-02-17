@@ -29,7 +29,8 @@ int main()
 
 	for (const auto& s : strings)
 		outFile << s << endl;
-
+	
+	strings.clear();
 	outFile.close();
 
 	cout << "See result in out.txt" << endl;
