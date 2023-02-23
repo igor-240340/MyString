@@ -1,0 +1,3 @@
+# MyString
+
+Dynamic string implementation.
