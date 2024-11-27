@@ -1,3 +1,3 @@
 # MyString
 
-Dynamic string implementation.
+Test assignment on implementation a custom dynamic string.
